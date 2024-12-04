@@ -1,0 +1,9 @@
+line = str(input('Enter a number: '))
+total = 0
+while line != "":
+try:
+#total = total + float(line)
+print(total)
+except ValueError:
+#print("Value error! Try again...")
+line = str(input('Enter a number: '))
